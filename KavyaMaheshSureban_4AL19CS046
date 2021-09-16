@@ -1,0 +1,9 @@
+def Factoriallist(n):
+    if n==0:
+        return 1
+    else:
+        recursive=Factoriallist(n-1)
+        result=n*recursive
+        return result
+a=[Factoriallist(3),Factoriallist(4),Factoriallist(5)]
+print(a)
